@@ -1,0 +1,59 @@
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.app{
+    max-width: 500px;
+    width: 400px;
+}
+
+input{
+    padding: 10px;
+    border: none;
+    width: 80%;
+    background-color: #DDE6ED;
+
+}
+button{
+    padding: 10px;
+    width: 20%;
+    border: none;
+    font-weight: bold;
+    background-color: #27374D;
+    color: #fff;
+}
+
+.user-card{
+    padding: 10px;
+    background-color: #DDE6ED;
+}
+.user-card .github-user{
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.user-card .github-user img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: contain;
+    margin-right: 10px;
+}
+
+.user-card .github-user div > *{
+    margin: 0;
+    padding: 0;
+}
+
+.username{
+    font-size: 20px;
+    font-weight: bold;
+}
+.login{
+    font-size: 16px;
+    color: #5b5e5f;
+}
